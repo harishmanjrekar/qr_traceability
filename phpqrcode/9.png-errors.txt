@@ -1,0 +1,6 @@
+2023-06-20 20:14:37: <br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\Users\Harish\Desktop\xamppp\htdocs\20_6_2023_blockchain_main\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\Users\Harish\Desktop\xamppp\htdocs\20_6_2023_blockchain_main\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\Users\Harish\Desktop\xamppp\htdocs\20_6_2023_blockchain_main\phpqrcode\qrsplit.php</b> on line <b>62</b><br />

@@ -1,0 +1,172 @@
+.button1 {
+    background-color: #D2691E;/*chocolate*/
+    border: none;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1px 1px;
+    cursor: pointer;
+    font-family:Comic Sans MS;
+}
+.button4 {border-radius: 12px;}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+   
+   
+    margin: 15% auto 15% auto; /* 15% from the top, 15% from the bottom and centered */
+    border: 0px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+	opacity: 1;
+	
+}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+.gh {
+	 background-position: center;
+    background-size: cover;
+	background-image: url("images/w5.jpg");
+	min-height: 100%;
+	opacity:0.9;
+}
+.hj {
+	 background-position: center;
+    background-size: cover;
+	background-image: url("images/w4.jpg");
+	opacity:0.9;
+}
+.bv {
+	 background-position: center;
+    background-size: cover;
+	background-image: url("images/w7.jpg");
+	opacity:0.9;
+}
+.kk {
+	 background-position: center;
+    background-size: cover;
+	background-image: url("images/w1.jpg");
+	min-height: 100%;
+	opacity:1;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/pc2.jpg");
+    min-height: 100%;
+	opacity:0.8;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+            /* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.abc {
+	font-size: 100%;
+line-height: 1.6875;
+}
+@media only screen and (max-width: 400px) {
+abc { font-size:60%;}
+}
+@media only screen and (max-width: 800px) {
+abc { font-size:80%;}
+} 
+
+@media only screen and (max-width: 1100px) {
+abc { font-size:100%;}
+}
+@media only screen and (min-width: 1100px) {
+abc { font-size:120%;}
+.wrap {max-width:770px;}
+}
+img.avatar {
+      border-radius: 40%;
+}
+
