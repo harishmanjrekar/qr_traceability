@@ -1,12 +1,5 @@
-
 <?php
-    $serverName = "tcp:rih1.database.windows.net,1433"; // update me
-    $connectionOptions = array(
-        "Database" => "blockchain", // update me
-        "Uid" => "rih", // update me
-        "PWD" => "Adminpassword!" // update me
-    );
-    //Establishes the connection
-    $connection = sqlsrv_connect($serverName, $connectionOptions);
-
+    $connectionInfo = array("UID" => "rih", "pwd" => "{your_password_here}", "Database" => "blockchain", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$serverName = "tcp:rih1.database.windows.net,1433";
+$connection = sqlsrv_connect($serverName, $connectionInfo);
 ?>
