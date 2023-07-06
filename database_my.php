@@ -1,10 +1,16 @@
 <?php
-			$connection = mysqli_connect('localhost', 'rih', 'adminpassword','blockchain');
-			if (!$connection){
-				die("Database Connection Failed" . mysqli_error($connection));
-			}
-			$select_db = mysqli_select_db($connection,'blockchain');
-			if (!$select_db){
-				die("Database Selection Failed" . mysqli_error($connection));
-			}
-			?>
+// PHP Data Objects(PDO) Sample Code:
+try {
+    $connection = new PDO("sqlsrv:server = tcp:rih1.database.windows.net,1433; Database = blockchain", "rih", "{your_password_here}");
+    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch (PDOException $e) {
+    print("Error connecting to SQL Server.");
+    die(print_r($e));
+}
+
+// SQL Server Extension Sample Code:
+$connectionInfo = array("UID" => "rih", "pwd" => "{your_password_here}", "Database" => "blockchain", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$serverName = "tcp:rih1.database.windows.net,1433";
+$connection = sqlsrv_connect($serverName, $connectionInfo);
+?>
