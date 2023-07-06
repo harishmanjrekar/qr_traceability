@@ -159,7 +159,7 @@
 					</div>
 					<?php
 include('database_my.php');
-$sel_query = "SELECT count(*) as total_count FROM `mastertable`;";
+$sel_query = "SELECT count(*) as total_count FROM `dbo.mastertable`;";
 $result = mysqli_query($connection, $sel_query);
 
 if ($result) {
@@ -177,7 +177,7 @@ if ($result) {
 				</div>
 				<?php
 include('database_my.php');
-$sel_query = "SELECT count(*) as total_count FROM `mastertable` where status=1;";
+$sel_query = "SELECT count(*) as total_count FROM `dbo.mastertable` where status=1;";
 $result = mysqli_query($connection, $sel_query);
 
 if ($result) {
